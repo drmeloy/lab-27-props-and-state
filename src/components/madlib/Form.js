@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Form.css';
 
 const Form = ({ onSubmit }) => (
-  <form onSubmit={onSubmit}>
+  <form className={styles.Form} onSubmit={onSubmit}>
     <input type="text" placeholder="adjective" />
     <input type="text" placeholder="noun" />
     <input type="text" placeholder="verb, past tense" />
