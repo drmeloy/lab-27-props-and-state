@@ -2,15 +2,40 @@
   display: grid;
   grid-template-columns: repeat(4, 200px);
   justify-content: center;
+  margin-top: 50px;
 
   input {
     font-size: 1rem;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
   }
 
   button {
-    margin-top: 10px;
+    margin: 10px;
     height: 38px;
     border-radius: 25px;
+  }
+
+  .reset {
+    background: #ff8a8a;
+  }
+
+  .reset:hover {
+    background: red;
+    color: white;
+    transition: .3s;
+  }
+
+  .submit {
+    background: #83ed83;
+  }
+
+  .submit:hover {
+    background: green;
+    color: white;
+    transition: .3s;
   }
 }

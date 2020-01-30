@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Form.css';
 
-const Form = ({ onSubmit }) => (
+const Form = ({ onSubmit, clearForm }) => (
   <form className={styles.Form} onSubmit={onSubmit}>
     <input type="text" placeholder="adjective" />
     <input type="text" placeholder="noun" />
@@ -16,7 +16,8 @@ const Form = ({ onSubmit }) => (
     <input type="text" placeholder="adverb" />
     <input type="text" placeholder="verb, past tense" />
     <input type="text" placeholder="adjective" />
-    <button>Create Madlib</button>
+    <button className={styles.submit}>Create Madlib</button>
+    <button type='reset' className={styles.reset}>Clear Form</button>
   </form>
 );
 
