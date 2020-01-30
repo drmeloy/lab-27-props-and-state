@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders Header 1`] = `
+<header
+  className="Header"
+>
+  <img
+    alt="Mad Libs logo"
+    src="https://lh3.googleusercontent.com/proxy/4ok0ki7ZkSw9fki_7QOUXXVmjOtRXlINP5XDOrvbXJe7MHvRs0mzU0hZu-fTD2lOUpWi0wtdYwryvdkQUY_she2vLsCh5WfQ2-bGjS7K-hW22EHLZ60sJFA2K8Vdw-Vw"
+  />
+  <h1>
+    MADLIBS MADLIBS MADLIBS!
+  </h1>
+  <img
+    alt="Mad Libs logo"
+    src="https://lh3.googleusercontent.com/proxy/4ok0ki7ZkSw9fki_7QOUXXVmjOtRXlINP5XDOrvbXJe7MHvRs0mzU0hZu-fTD2lOUpWi0wtdYwryvdkQUY_she2vLsCh5WfQ2-bGjS7K-hW22EHLZ60sJFA2K8Vdw-Vw"
+  />
+</header>
+`;

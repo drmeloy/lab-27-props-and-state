@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result component renders Result 1`] = `
+<div
+  className="Result"
+>
+  <p>
+    Today I went to the zoo. I saw a(n)
+hello
+hi jumping up and down in its tree.
+He hey undefined
+through the large tunnel that led to its undefined
+undefined. I got some peanuts and passed
+them through the cage to a gigantic gray undefined
+towering above my head. Feeding that animal made
+me hungry. I went to get a undefined scoop
+of ice cream. It filled my stomach. Afterwards I had to
+undefined undefined to catch our bus.
+When I got home I undefined my
+mom for a undefined day at the zoo.
+
+  </p>
+  <button>
+    Start over
+  </button>
+</div>
+`;

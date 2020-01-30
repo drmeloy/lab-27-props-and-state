@@ -27,14 +27,6 @@ export default class Madlib extends Component{
     this.toggleResult();
   }
 
-  clearForm = event => {
-    event.preventDefault();
-    const elArray = event.target.children;
-    for (let i = 0; i < elArray.length - 1; i++){
-      elArray[i].value = '';
-    }
-  }
-
   render() {
     const { showResult, words } = this.state;
     

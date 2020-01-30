@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component renders Form 1`] = `
+<form
+  className="Form"
+  onSubmit="hi"
+>
+  <input
+    placeholder="adjective"
+    type="text"
+  />
+  <input
+    placeholder="noun"
+    type="text"
+  />
+  <input
+    placeholder="verb, past tense"
+    type="text"
+  />
+  <input
+    placeholder="adverb"
+    type="text"
+  />
+  <input
+    placeholder="adjective"
+    type="text"
+  />
+  <input
+    placeholder="noun"
+    type="text"
+  />
+  <input
+    placeholder="noun"
+    type="text"
+  />
+  <input
+    placeholder="adjective"
+    type="text"
+  />
+  <input
+    placeholder="verb"
+    type="text"
+  />
+  <input
+    placeholder="adverb"
+    type="text"
+  />
+  <input
+    placeholder="verb, past tense"
+    type="text"
+  />
+  <input
+    placeholder="adjective"
+    type="text"
+  />
+  <button
+    className="submit"
+  >
+    Create Madlib
+  </button>
+  <button
+    className="reset"
+    type="reset"
+  >
+    Clear Form
+  </button>
+</form>
+`;

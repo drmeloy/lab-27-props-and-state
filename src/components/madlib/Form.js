@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Form.css';
 
-const Form = ({ onSubmit, clearForm }) => (
+const Form = ({ onSubmit }) => (
   <form className={styles.Form} onSubmit={onSubmit}>
     <input type="text" placeholder="adjective" />
     <input type="text" placeholder="noun" />
